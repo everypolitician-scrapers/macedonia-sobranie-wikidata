@@ -3,7 +3,8 @@
 
 require 'wikidata/fetcher'
 mk_names = WikiData::Category.new('Категорија:Пратенички состав 2011-2014', 'mk').member_titles |
-           WikiData::Category.new('Категорија:Пратенички состав 2014-2016', 'mk').member_titles
+           WikiData::Category.new('Категорија:Пратенички состав 2014-2016', 'mk').member_titles |
+           WikiData::Category.new('Категорија:Пратенички состав 2016-2020', 'mk').member_titles
 
 sq_names = WikiData::Category.new('Kategoria:Anëtarë të Kuvendit të Republikës së Maqedonisë', 'sq').member_titles
 
